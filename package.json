@@ -1,0 +1,46 @@
+{
+  "name": "nodemailer-mailgun-transport-esm",
+  "main": "src/",
+  "description": "A transport module to use with nodemailer to leverage Mailgun's REST API",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:compwright/nodemailer-mailgun-transport-esm.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "email",
+    "nodemailer",
+    "mailgun"
+  ],
+  "maintainers": [
+    {
+      "name": "Jonathon Hill",
+      "email": "jonathon@compwright.com"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/compwright/nodemailer-mailgun-transport-esm/issues"
+  },
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://github.com/compwright/nodemailer-mailgun-transport-esm/blob/master/LICENSE"
+    }
+  ],
+  "homepage": "https://github.com/compwright/nodemailer-mailgun-transport-esm",
+  "dependencies": {
+    "@ladjs/consolidate": "^1.0.3",
+    "form-data": "^4.0.0",
+    "mailgun.js": "^10.2.1"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "jest": "*",
+    "semistandard": "*",
+    "standard-version": "*"
+  }
+}
